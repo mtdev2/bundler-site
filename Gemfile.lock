@@ -147,7 +147,7 @@ depfu/update/middleman-4.3.6
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
     nio4r (2.5.2)
-    nokogiri (1.10.7)
+    nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     octokit (4.18.0)
       faraday (>= 0.9)
