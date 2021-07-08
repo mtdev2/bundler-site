@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby File.read(File.expand_path('../.ruby-version', __FILE__)).strip
 
-gem 'octokit', '~> 4.15'
+gem 'octokit', '~> 4.18', '>= 4.18.0'
 gem 'middleman', '~> 4.3'
 gem 'middleman-syntax', '>= 3.2.0'
 gem 'middleman-blog', '>= 4.0.3'
