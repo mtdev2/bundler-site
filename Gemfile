@@ -1,22 +1,22 @@
 source 'https://rubygems.org'
 ruby File.read(File.expand_path('../.ruby-version', __FILE__)).strip
 
-gem 'octokit', '~> 4.15'
+gem 'octokit', '~> 4.18', '>= 4.18.0'
 gem 'middleman', '~> 4.3'
 gem 'middleman-syntax', '>= 3.2.0'
 gem 'middleman-blog', '>= 4.0.3'
 gem 'middleman-compass', '>= 4.0.1'
 gem 'middleman-minify-html', '>= 3.4.1'
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 4.3', '>= 4.3.12'
 gem 'middleman-sprockets', '~> 4.1', '>= 4.1.1'
 gem 'middleman-search', '>= 0.10.0'
 gem 'rake'
 gem 'ronn'
-gem 'kramdown'
+gem 'kramdown', '>= 2.3.1'
 gem 'builder'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
-gem 'nokogiri', '~> 1.10'
+gem 'nokogiri', '~> 1.13', '>= 1.13.9'
 gem 'haml', '~> 5.1.2'
 
 group :development do
