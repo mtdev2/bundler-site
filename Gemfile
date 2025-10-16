@@ -3,8 +3,8 @@ ruby File.read(File.expand_path('../.ruby-version', __FILE__)).strip
 
 gem 'octokit', '~> 4.15'
 gem 'middleman', '~> 4.3'
-gem 'middleman-syntax', '>= 3.2.0'
-gem 'middleman-blog', '>= 4.0.3'
+gem 'middleman-syntax', '>= 3.3.0'
+gem 'middleman-blog', '>= 4.1.0'
 gem 'middleman-compass', '>= 4.0.1'
 gem 'middleman-minify-html', '>= 3.4.1'
 gem 'puma', '~> 4.3'
