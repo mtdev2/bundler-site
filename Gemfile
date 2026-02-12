@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby File.read(File.expand_path('../.ruby-version', __FILE__)).strip
 
-gem 'octokit', '~> 4.15'
+gem 'octokit', '~> 4.23', '>= 4.23.0'
 gem 'middleman', '~> 4.3'
 gem 'middleman-syntax', '>= 3.2.0'
 gem 'middleman-blog', '>= 4.0.3'
@@ -22,5 +22,5 @@ gem 'haml', '~> 5.1.2'
 group :development do
   gem 'pry'
   gem 'pry-byebug'
-  gem 'travis', '>= 1.8.13'
+  gem 'travis', '>= 1.12.0'
 end
